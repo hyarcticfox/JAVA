@@ -35,9 +35,4 @@ cmd输入：path
 创建一个新module，选择SDK即可。
 配置project，选择Project SDK
 右击项目名来建Package
-七、关于控制台输出中文乱码的问题
-Settings-Editor-File Encodings-都改成GBK或者UTF-8
-txt文件默认为GBK编码，注意保持一致即可
 
-或打开IntelliJ IDEA本地安装目录中bin文件夹下的idea.exe.vmoptions和idea64.exe.vmoptions这两个文件
-分别在这两个文件内容的末尾添加-Dfile.encoding=UTF-8或GBK
